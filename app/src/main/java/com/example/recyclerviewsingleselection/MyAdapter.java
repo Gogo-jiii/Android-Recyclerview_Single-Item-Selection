@@ -40,7 +40,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.textView.setText(modelClass.getName());
 
         if (singleitem_selection_position == position) {
-            holder.itemView.setBackgroundColor(context.getResources().getColor(R.color.white));
+            holder.itemView.setBackgroundColor(context.getResources().getColor(R.color.highlight));
         } else {
             holder.itemView.setBackgroundColor(Color.TRANSPARENT);
         }
